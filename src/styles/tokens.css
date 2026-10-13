@@ -1,0 +1,31 @@
+:root {
+  /* Surfaces */
+  --glass: rgba(9, 14, 24, 0.74);
+  --solid: #0c121d;
+  --raised: #151d2c;
+  --sunken: rgba(255, 255, 255, 0.07);
+  --line: rgba(255, 255, 255, 0.13);
+  --line-strong: rgba(255, 255, 255, 0.26);
+
+  /* Text */
+  --text: #eef2f7;
+  --text-dim: #a3afc0;
+  --text-faint: #6f7c90;
+
+  /* Accents */
+  --blue: #4d9fff;
+  --blue-deep: #0b3d91;
+  --orange: #ff8a2a;
+  --red: #ff5449;
+  --green: #3fd39a;
+
+  /* Type */
+  --font-ui: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* Shape and spacing */
+  --r-sm: 3px;
+  --r-md: 6px;
+  --gap: 12px;
+  --edge: clamp(12px, 1.6vw, 24px);
+}
